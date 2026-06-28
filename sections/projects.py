@@ -23,7 +23,7 @@ def sec(text):
 PROJECTS = [
     {
         "name": "AI Travel Planner",
-        "date": "Feb – Apr 2026",
+        "date": "May – Jun 2026",
         "url": "https://github.com/MohammadMuntasirKabir/ai-travel-planner",
         "demo": "https://ai-travel-planner-azure-chi.vercel.app",
         "stack": "Next.js 16, React 19, Prisma, NextAuth 5, OpenRouter AI, @dnd-kit, react-globe.gl",
@@ -33,7 +33,7 @@ PROJECTS = [
     },
     {
         "name": "HRMS System",
-        "date": "Oct – Dec 2025",
+        "date": "May – Jun 2026",
         "url": "https://github.com/MohammadMuntasirKabir/hrms-system",
         "demo": "https://hrms-system-ogg4.onrender.com",
         "stack": "Laravel 13, Livewire 4, Flux UI, Spatie Permission, SQLite",
@@ -43,7 +43,7 @@ PROJECTS = [
     },
     {
         "name": "Event Planner Pro",
-        "date": "Dec 2025 – Feb 2026",
+        "date": "May – Jun 2026",
         "url": "https://github.com/MohammadMuntasirKabir/event-planner-pro",
         "demo": "https://event-planner-pro-lac.vercel.app",
         "stack": "Next.js 16, Clerk, Prisma, Neon DB, Tailwind CSS",
@@ -53,7 +53,7 @@ PROJECTS = [
     },
     {
         "name": "GymAI Dhaka",
-        "date": "Jan – Mar 2026",
+        "date": "May – Jun 2026",
         "url": "https://github.com/MohammadMuntasirKabir/gymai-dhaka",
         "demo": "https://gym-ai-dhaka.vercel.app",
         "stack": "Vite, React 19, React Router, Neon DB, Tailwind CSS",
