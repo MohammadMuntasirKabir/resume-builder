@@ -21,12 +21,14 @@ def sec(text):
 
 # ── Data ───────────────────────────────────────────────────────
 SUMMARY = (
-    "Software Engineer and AI Automation Specialist. Full-stack web development with "
-    "React, Next.js 16, Laravel 13, and modern JavaScript. Hands-on Odoo ERP experience — "
-    "customizing 23+ modules, building workflows, and delivering client-facing solutions. "
-    "Leverages Claude Code, Codex, n8n, Zapier, and Hermes Agent to ship quality software "
-    "efficiently. Experienced in client communication, requirements gathering, and translating "
-    "business needs into technical deliverables across multiple concurrent projects."
+    "I'm Rownak (Mohammad Muntasir Kabir), a Software Developer Intern at Xobotronix IT in "
+    "Dhaka, currently completing my B.Sc. in Computer Science at Brac University (CGPA 3.09). "
+    "I build full-stack web applications with React, Next.js 16, and Laravel 13, and I'm "
+    "especially drawn to AI-assisted development — using Claude Code, Codex, n8n, and Zapier to "
+    "ship reliable software fast. At Xobotronix I've customized 23+ Odoo ERP modules and built "
+    "client-facing products like Xobo-Pharma (an AI-powered digital pharmacy) and learning "
+    "management systems. I care about writing tested, maintainable code, owning features end to "
+    "end, and turning messy business requirements into clean technical deliverables."
 )
 
 

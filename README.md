@@ -52,3 +52,12 @@ Edit `config.py` to change colors, fonts, margins, output path, or photo source.
 
 The generated PDF is automatically copied to the portfolio's `public/` folder for direct download:
 `nextjs-personal-portfolio/public/Mohammad_Muntasir_Kabir_Resume.pdf`
+
+After regenerating, copy the fresh PDF into the portfolio so the "Download CV" button
+serves the latest version:
+
+```bash
+python index.py
+cp Mohammad_Muntasir_Kabir_Resume.pdf \
+   /home/rownak/projects/nextjs-personal-portfolio/public/Mohammad_Muntasir_Kabir_Resume.pdf
+```

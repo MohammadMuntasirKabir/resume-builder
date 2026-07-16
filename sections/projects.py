@@ -35,11 +35,11 @@ PROJECTS = [
         "name": "HRMS System",
         "date": "May – Jun 2026",
         "url": "https://github.com/MohammadMuntasirKabir/hrms-system",
-        "demo": "https://hrms-system-ogg4.onrender.com",
-        "stack": "Laravel 13, Livewire 4, Flux UI, Spatie Permission, SQLite",
-        "desc": "Human Resource Management System: employee management, recruitment workflows, "
-                "payroll, 6-role access control, audit logging, dashboard analytics, API resources. "
-                "209+ tests passing.",
+        "demo": "https://hrms-system-dun.vercel.app",
+        "stack": "Laravel 13, Livewire 4, Flux UI v2, Spatie Permission, Tailwind CSS 4, SQLite/MySQL/PostgreSQL",
+        "desc": "Human Resource Management System: multi-company support, employee management, "
+                "recruitment workflows, payroll, 6-role access control, audit logging, dashboard "
+                "analytics, and API resources. Deployed on Vercel. 209+ tests passing.",
     },
     {
         "name": "Event Planner Pro",
