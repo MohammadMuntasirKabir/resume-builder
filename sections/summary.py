@@ -21,14 +21,17 @@ def sec(text):
 
 # ── Data ───────────────────────────────────────────────────────
 SUMMARY = (
-    "I'm Rownak (Mohammad Muntasir Kabir), a Software Developer Intern at Xobotronix IT in "
-    "Dhaka, currently completing my B.Sc. in Computer Science at Brac University (CGPA 3.09). "
-    "I build full-stack web applications with React, Next.js 16, and Laravel 13, and I'm "
-    "especially drawn to AI-assisted development — using Claude Code, Codex, n8n, and Zapier to "
-    "ship reliable software fast. At Xobotronix I've customized 23+ Odoo ERP modules and built "
-    "client-facing products like Xobo-Pharma (an AI-powered digital pharmacy) and learning "
-    "management systems. I care about writing tested, maintainable code, owning features end to "
-    "end, and turning messy business requirements into clean technical deliverables."
+    "I am a Software Engineer, AI Automation Specialist and Full-Stack Developer "
+    "with expertise in full-stack web development using React, NextJS, Laravel, and modern JavaScript. "
+    "Furthermore, I am proficient in leveraging AI-powered development tools, including "
+    "Claude Code, Codex, n8n, Zapier, Opencode, Openclaw, Hermes Agent and more, "
+    "to accelerate development while maintaining software quality. "
+    "I also have 6 months of professional experience in Software Development where "
+    "I customized and implemented ODOO ERP solutions with enhancements across 23+ modules "
+    "and developed client-focused business workflows with the aid of AI Automation. "
+    "Moreover, I have also learned about and improved on client communication,  "
+    "requirements analysis, and translating business objectives into scalable technical "
+    "solutions while managing multiple concurrent projects in a fast-paced and time-contrained environment."
 )
 
 

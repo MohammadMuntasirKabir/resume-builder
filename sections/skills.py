@@ -23,6 +23,7 @@ def sec(text):
 SKILL_GROUPS = [
     ("Languages", "Python, JavaScript, TypeScript, PHP, HTML5, CSS3"),
     ("Frameworks", "React, Next.js, Laravel, Livewire, Vue.js, Tailwind CSS, Node.js, Express"),
+    ("CMS", "WordPress, Custom Theme & Plugin Development"),
     ("State Mgmt", "Redux, Zustand"),
     ("Databases", "PostgreSQL, MySQL, SQLite, MongoDB, Firebase, Supabase"),
     ("ERP", "Odoo ERP"),

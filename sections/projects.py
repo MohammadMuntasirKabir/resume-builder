@@ -26,7 +26,7 @@ PROJECTS = [
         "date": "May – Jun 2026",
         "url": "https://github.com/MohammadMuntasirKabir/ai-travel-planner",
         "demo": "https://ai-travel-planner-azure-chi.vercel.app",
-        "stack": "Next.js 16, React 19, Prisma, NextAuth 5, OpenRouter AI, @dnd-kit, react-globe.gl",
+        "stack": "Next.js 16, React 19, Prisma, NextAuth 5, OpenRouter AI",
         "desc": "AI-powered travel planning with AI-generated itineraries, location suggestions, "
                 "drag-and-drop trip organization, interactive globe view, and AI chat. "
                 "68 tests, rate limiting, error boundaries, input validation.",
@@ -36,7 +36,7 @@ PROJECTS = [
         "date": "May – Jun 2026",
         "url": "https://github.com/MohammadMuntasirKabir/hrms-system",
         "demo": "https://hrms-system-prod.vercel.app",
-        "stack": "Laravel 13, Livewire 4, Flux UI v2, Spatie Permission, Tailwind CSS 4, SQLite/MySQL/PostgreSQL",
+        "stack": "Laravel 13, Livewire 4, Flux UI v2, Spatie Permission, Tailwind CSS 4, PostgreSQL",
         "desc": "Human Resource Management System: multi-company support, employee management, "
                 "recruitment workflows, payroll, 6-role access control, audit logging, dashboard "
                 "analytics, and API resources. Deployed on Vercel. 209+ tests passing.",
@@ -46,7 +46,7 @@ PROJECTS = [
         "date": "May – Jun 2026",
         "url": "https://github.com/MohammadMuntasirKabir/event-planner-pro",
         "demo": "https://event-planner-pro-lac.vercel.app",
-        "stack": "Next.js 16, Clerk, Prisma, Neon DB, Tailwind CSS",
+        "stack": "Next.js 16, Clerk, Prisma, Neon DB, PostgreSQL, Tailwind CSS",
         "desc": "Full-stack event management platform with event creation, attendee management, "
                 "RSVP tracking, invite links, and polished dashboard. Rate limiting, input "
                 "validation, error boundaries. 208 tests passing.",
@@ -56,7 +56,7 @@ PROJECTS = [
         "date": "May – Jun 2026",
         "url": "https://github.com/MohammadMuntasirKabir/gymai-dhaka",
         "demo": "https://gym-ai-dhaka.vercel.app",
-        "stack": "Vite, React 19, React Router, Neon DB, Tailwind CSS",
+        "stack": "Vite, React 19, React Router, Neon DB, PostgreSQL, Tailwind CSS",
         "desc": "Gym partnership platform in Bangladesh. AI-generated personalized training plans, "
                 "gym discovery, membership management, partner dashboards. Retry logic for AI API, "
                 "form validation, error boundaries.",
