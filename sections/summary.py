@@ -21,17 +21,13 @@ def sec(text):
 
 # ── Data ───────────────────────────────────────────────────────
 SUMMARY = (
-    "I am a Software Engineer, AI Automation Specialist and Full-Stack Developer "
-    "with expertise in full-stack web development using React, NextJS, Laravel, and modern JavaScript. "
-    "Furthermore, I am proficient in leveraging AI-powered development tools, including "
-    "Claude Code, Codex, n8n, Zapier, Opencode, Openclaw, Hermes Agent and more, "
-    "to accelerate development while maintaining software quality. "
-    "I also have 6 months of professional experience in Software Development where "
-    "I customized and implemented ODOO ERP solutions with enhancements across 23+ modules "
-    "and developed client-focused business workflows with the aid of AI Automation. "
-    "Moreover, I have also learned about and improved on client communication,  "
-    "requirements analysis, and translating business objectives into scalable technical "
-    "solutions while managing multiple concurrent projects in a fast-paced and time-contrained environment."
+    "Client-focused Software Engineer with 6 months of professional experience "
+    "in international client communication, requirement gathering, and translating "
+    "business needs into technical solutions. B.Sc. in CSE with strong command of "
+    "full-stack web development (React, Next.js, Laravel, WordPress) and AI automation "
+    "tools. Proven ability to manage cross-functional projects, deliver client-facing "
+    "products, and build long-term relationships with stakeholders across multiple "
+    "industries including healthcare, education, and HR management."
 )
 
 

@@ -21,17 +21,12 @@ def sec(text):
 
 # ── Data ───────────────────────────────────────────────────────
 SKILL_GROUPS = [
-    ("Languages", "Python, JavaScript, TypeScript, PHP, HTML5, CSS3"),
-    ("Frameworks", "React, Next.js, Laravel, Livewire, Vue.js, Tailwind CSS, Node.js, Express"),
-    ("CMS", "WordPress, Custom Theme & Plugin Development"),
-    ("WP Plugins", "Elementor, WooCommerce, Spectra (Ultimate Addons for Gutenberg), WPForms, Gutenberg, Akismet"),
-    ("State Mgmt", "Redux, Zustand"),
-    ("Databases", "PostgreSQL, MySQL, SQLite, MongoDB, Firebase, Supabase"),
-    ("ERP", "Odoo ERP"),
-    ("AI Automation", "Claude Code, Codex, OpenCode, Lovable, Kilo Code, PI, Zapier, n8n, OpenClaw, Hermes Agent"),
-    ("DevOps & Cloud", "Git, GitHub, GitLab, Docker, GraphQL, REST APIs"),
-    ("Auth & Payments", "NextAuth 5, Clerk, Neon Auth, Better Auth"),
-    ("Other", "Figma, MCP, LLMs, Prisma"),
+    ("Client Relations", "Requirement Gathering, Stakeholder Communication, Project Scoping"),
+    ("Web Development", "React, Next.js, Laravel, Vue.js, Tailwind CSS, Node.js"),
+    ("Languages", "Python, JavaScript, TypeScript, PHP, C/C++, C#, .NET"),
+    ("SEO & Marketing", "SEO Frameworks, Digital Marketing, Google Analytics"),
+    ("Databases & Cloud", "PostgreSQL, MySQL, MongoDB, Firebase, Docker, Git"),
+    ("AI & ERP", "Claude Code, Codex, n8n, Zapier, Odoo ERP, REST APIs"),
 ]
 
 

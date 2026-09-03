@@ -10,11 +10,10 @@ from config import (
 # ── Social links data ───────────────────────────────────────────
 # (text, href_or_none, color)
 SOCIAL_LINKS = [
-    ("Dhaka, Bangladesh", None, MID),
     ("kabirmuntasir96@gmail.com", "mailto:kabirmuntasir96@gmail.com", LINK_CLR),
-    ("GitHub", "https://github.com/MohammadMuntasirKabir", LINK_CLR),
-    ("LinkedIn", "https://www.linkedin.com/in/mohammad-muntasir-kabir-642020381", LINK_CLR),
-    ("Portfolio", "https://nextjs-personal-portfolio-zeta.vercel.app", LINK_CLR),
+    ("github.com/MohammadMuntasirKabir", "https://github.com/MohammadMuntasirKabir", LINK_CLR),
+    ("linkedin.com/in/mohammad-muntasir-kabir", "https://www.linkedin.com/in/mohammad-muntasir-kabir-642020381", LINK_CLR),
+    ("nextjs-personal-portfolio-zeta.vercel.app", "https://nextjs-personal-portfolio-zeta.vercel.app", LINK_CLR),
 ]
 
 
@@ -32,7 +31,7 @@ def build_header(photo):
     """Build the header: photo, name, title, location + social links."""
     from reportlab.platypus.flowables import Image as RLImage
 
-    photo_obj = RLImage(photo, width=0.54 * inch, height=0.54 * inch)
+    photo_obj = RLImage(photo, width=0.6 * inch, height=0.6 * inch)
 
     header_items = [
         Spacer(1, 5),
@@ -49,7 +48,7 @@ def build_header(photo):
     for i, (text, href, color) in enumerate(SOCIAL_LINKS):
         if i > 0:
             social_cells.append(P("·", size=8, leading=11, color=MID, align=1))
-        social_cells.append(P(text, size=8, leading=11, color=color, href=href))
+        social_cells.append(P(text, size=8.5, leading=11.5, color=color, href=href))
 
     col_widths = [
         CONTENT_W * 0.18, CONTENT_W * 0.03,

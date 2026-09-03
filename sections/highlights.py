@@ -1,4 +1,4 @@
-"""Highlights section."""
+"""Core Competencies section — tailored for Client Relationship Executive role."""
 
 from reportlab.platypus import Paragraph, Spacer
 
@@ -20,20 +20,20 @@ def sec(text):
 
 
 # ── Data ───────────────────────────────────────────────────────
-HIGHLIGHTS = [
-    "0.5+ years of professional experience",
-    "3+ major projects at Xobotronix IT",
-    "7+ AI automation tools used daily",
-    "25+ technologies in active use",
-    "Client-facing across 3+ concurrent projects",
-    "Full-stack + ERP + AI agent development",
+COMPETENCIES = [
+    "Client Communication",
+    "Requirement Gathering",
+    "Stakeholder Management",
+    "English Fluency",
+    "Cross-functional Collaboration",
+    "Technical Consulting",
 ]
 
 
 def build_highlights():
     items = []
-    items.append(sec("HIGHLIGHTS"))
+    items.append(sec("CORE COMPETENCIES"))
     items.append(Spacer(1, 2))
-    for h in HIGHLIGHTS:
-        items.append(P(f"• {h}", size=8, leading=11, color=BODY))
+    for c in COMPETENCIES:
+        items.append(P(f"• {c}", size=8.5, leading=11.5, color=BODY))
     return items

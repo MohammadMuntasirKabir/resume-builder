@@ -68,7 +68,7 @@ def build():
     # ── Photo ────────────────────────────────────────────────────
     from reportlab.platypus.flowables import Image as RLImage
 
-    photo_buf = make_round_photo(config.PHOTO_SRC, 62)
+    photo_buf = make_round_photo(config.PHOTO_SRC, 180)
 
     # ── Header ───────────────────────────────────────────────────
     header_table = build_header(photo_buf)

@@ -10,7 +10,7 @@ PHOTO_SRC = "/home/rownak/Pictures/Screenshot_20260620_182059.png"
 
 # ── Page Layout ────────────────────────────────────────────────
 PAGE_W, PAGE_H = LETTER
-MARGIN = 0.32 * inch
+MARGIN = 0.45 * inch
 CONTENT_W = PAGE_W - 2 * MARGIN
 
 LEFT_W = 1.85 * inch

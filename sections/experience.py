@@ -23,16 +23,14 @@ def sec(text):
 TITLE = "Software Developer Intern"
 COMPANY = "Xobotronix IT — Dhaka, Bangladesh  |  Nov 2025 – May 2026"
 BULLETS = [
-    "Worked extensively with Odoo ERP — customizing 23+ modules, building workflows, "
-    "and delivering client-facing solutions.",
-    "Leveraged AI Automation tools (Claude Code, Codex, n8n, Zapier) to ship quality "
-    "software in the shortest time possible.",
-    "Built Xobo-Pharma digital pharmacy: AI Doctor Chat, appointments, eCommerce, "
-    "inventory, accounting — fully automated order-to-invoice workflows.",
-    "Built a Learning Management System (LMS) for ESS School and backend services "
-    "for Whiteshell Hi-Tech.",
-    "Actively involved in client communications across multiple projects, gathering "
-    "requirements and translating them into technical deliverables.",
+    "Communicated directly with international clients across healthcare, education, and HR "
+    "domains to gather requirements, define project scope, and deliver tailored solutions.",
+    "Customized 23+ Odoo ERP modules, translating client business workflows into automated "
+    "processes that reduced manual overhead and improved operational efficiency.",
+    "Built Xobo-Pharma: a full-stack digital pharmacy platform with AI-powered features, "
+    "eCommerce, and automated order-to-invoice workflows — delivered end-to-end for client launch.",
+    "Developed LMS for ESS School and backend services for Whiteshell Hi-Tech, managing "
+    "project timelines and stakeholder communications across parallel engagements.",
 ]
 
 

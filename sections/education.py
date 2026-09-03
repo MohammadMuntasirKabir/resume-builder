@@ -22,15 +22,13 @@ def sec(text):
 # ── Data ───────────────────────────────────────────────────────
 DEGREE = "B.Sc. in Computer Science"
 UNIVERSITY = "Brac University"
-DURATION = "Jan 2021 – Jun 2026"
-CGPA = "3.09"
+DURATION = "Jan 2020 – Aug 2026"
+CGPA = "3.02"
 COURSEWORK = [
     "Software Engineering",
     "Algorithms & Data Structures",
     "Database Systems",
     "Artificial Intelligence",
-    "Compiler Design",
-    "Operating Systems",
 ]
 
 
@@ -42,8 +40,4 @@ def build_education():
     items.append(P(UNIVERSITY, size=8.5, leading=11.5, color=MID))
     items.append(P(DURATION, size=8.5, leading=11.5, color=MID))
     items.append(P(f"CGPA: {CGPA}", size=8.5, leading=11.5, color=MID))
-    items.append(Spacer(1, 3))
-    items.append(P("Relevant Coursework:", size=8.5, leading=11.5, bold=True))
-    for c in COURSEWORK:
-        items.append(P(f"• {c}", size=8, leading=11, color=BODY))
     return items

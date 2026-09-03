@@ -22,44 +22,23 @@ def sec(text):
 # ── Data ───────────────────────────────────────────────────────
 PROJECTS = [
     {
-        "name": "AI Travel Planner",
-        "date": "May – Jun 2026",
-        "url": "https://github.com/MohammadMuntasirKabir/ai-travel-planner",
-        "demo": "https://ai-travel-planner-azure-chi.vercel.app",
-        "stack": "Next.js 16, React 19, Prisma, NextAuth 5, OpenRouter AI",
-        "desc": "AI-powered travel planning with AI-generated itineraries, location suggestions, "
-                "drag-and-drop trip organization, interactive globe view, and AI chat. "
-                "68 tests, rate limiting, error boundaries, input validation.",
-    },
-    {
         "name": "HRMS System",
         "date": "May – Jun 2026",
         "url": "https://github.com/MohammadMuntasirKabir/hrms-system",
-        "demo": "https://hrms-system-prod.vercel.app",
-        "stack": "Laravel 13, Livewire 4, Flux UI v2, Spatie Permission, Tailwind CSS 4, PostgreSQL",
-        "desc": "Human Resource Management System: multi-company support, employee management, "
-                "recruitment workflows, payroll, 6-role access control, audit logging, dashboard "
-                "analytics, and API resources. Deployed on Vercel. 209+ tests passing.",
+        "demo": "https://hrms-system-prod.vercel.app/",
+        "stack": "Laravel 13, Livewire 4, PostgreSQL, Spatie Permission",
+        "desc": "Full-stack HR Management System with multi-company support, payroll, "
+                "recruitment workflows, 6-role access control, and dashboard analytics. "
+                "Delivered for client deployment with 209+ tests.",
     },
     {
-        "name": "Event Planner Pro",
-        "date": "May – Jun 2026",
-        "url": "https://github.com/MohammadMuntasirKabir/event-planner-pro",
-        "demo": "https://event-planner-pro-lac.vercel.app",
-        "stack": "Next.js 16, Clerk, Prisma, Neon DB, PostgreSQL, Tailwind CSS",
-        "desc": "Full-stack event management platform with event creation, attendee management, "
-                "RSVP tracking, invite links, and polished dashboard. Rate limiting, input "
-                "validation, error boundaries. 208 tests passing.",
-    },
-    {
-        "name": "GymAI Dhaka",
-        "date": "May – Jun 2026",
-        "url": "https://github.com/MohammadMuntasirKabir/gymai-dhaka",
-        "demo": "https://gym-ai-dhaka.vercel.app",
-        "stack": "Vite, React 19, React Router, Neon DB, PostgreSQL, Tailwind CSS",
-        "desc": "Gym partnership platform in Bangladesh. AI-generated personalized training plans, "
-                "gym discovery, membership management, partner dashboards. Retry logic for AI API, "
-                "form validation, error boundaries.",
+        "name": "Stilla Furniture",
+        "date": "Jul – Aug 2026",
+        "url": "https://github.com/MohammadMuntasirKabir/stilla-furniture",
+        "demo": None,
+        "stack": "WordPress, Docker, Custom Theme, Stripe, SEO",
+        "desc": "Scandinavian furniture storefront with custom WordPress theme, "
+                "shopping cart, Stripe payments, authentication, and SEO optimization.",
     },
 ]
 
@@ -93,14 +72,15 @@ def build_projects():
         items.append(P(proj["stack"], size=8, leading=11, italic=True, color=MID))
         # Line 3: Description
         items.append(P(proj["desc"], size=8.5, leading=11.5, color=BODY))
-        # Line 4: GitHub Repo + Live Demo — 1 space gap between
-        items.append(Table(
-            [[
-                P("GitHub Repo", size=8, leading=11, color=LINK_CLR, href=proj["url"]),
-                P(" Live Demo", size=8, leading=11, color=LINK_CLR, href=proj["demo"]),
-            ]],
-            colWidths=[RIGHT_W * 0.14, RIGHT_W * 0.14],
-            style=INNER_TABLE_STYLE,
-        ))
+        # Line 4: Full URLs for print
+        link_cells = []
+        if proj.get("url"):
+            link_cells.append(P(proj["url"], size=7.5, leading=10, color=LINK_CLR, href=proj["url"]))
+        if proj.get("demo"):
+            if link_cells:
+                link_cells.append(P("  ·  ", size=7.5, leading=10, color=MID))
+            link_cells.append(P(proj["demo"], size=7.5, leading=10, color=LINK_CLR, href=proj["demo"]))
+        if link_cells:
+            items.append(Table([link_cells], colWidths=[RIGHT_W * 0.95], style=INNER_TABLE_STYLE))
 
     return items
